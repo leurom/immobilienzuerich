@@ -6,6 +6,6 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Optional: Marker für Zürich hinzufügen
-L.marker([47.3667, 8.5500]).addTo(map)
+/* L.marker([47.3667, 8.5500]).addTo(map)
     .bindPopup('Zürich Canton')
-    .openPopup();
+    .openPopup(); */

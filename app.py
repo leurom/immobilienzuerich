@@ -1,6 +1,6 @@
-from flask import Flask, render_template # type: ignore
+from flask import Flask, render_template
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='static')
 
 @app.route("/")
 def index():
