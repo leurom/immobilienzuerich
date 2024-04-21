@@ -12,7 +12,6 @@ var marker = L.marker([47.3667, 8.5500], { draggable: true }).addTo(map);
 marker.on('dragend', function(event){
     var position = marker.getLatLng(); // Aktuelle Position des Markers
     console.log('Neue Position:', position.lat, position.lng); // Ausgabe der Koordinaten in der Konsole
-    // Hier kannst du die Koordinaten weiterverarbeiten, z.B. in ein Formular eintragen
 });
 
 
